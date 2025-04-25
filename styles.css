@@ -5,17 +5,38 @@
     color: #fff;
 }
 
-body{
+
+#container{ 
     background-image: url("https://wallpapers.com/images/hd/powerpoint-background-494hdfyvnc9qcrgo.jpg"); 
-    background-size: cover;
-}
-#container{  
+    background-size: cover; 
     display: flex; 
     justify-content: center; 
     align-items: center; 
     height: 100vh;
     flex-direction: column; 
    background-color: #2927273f;
+}
+
+
+
+.explosion{
+    background-color: rgb(21, 187, 93);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+
+.bContainer{  
+ display: none;
+}
+
+.explode{
+    display: block;
 }
 
 #bak{
@@ -30,7 +51,7 @@ body{
 }
 
 #timerContainer{
-    background-color: #31ac77;
+    background-color: #30a874;
     padding: 1rem;
     border-radius: 10px;
     border: 2px solid #288e62;

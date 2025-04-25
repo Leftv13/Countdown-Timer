@@ -7,6 +7,18 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <div class="bContainer" >
+        <div class="explosion" >
+            <h1 style="text-align: center;" id="title">Super epic explosion</h1>
+            <video  controls autoplay type="video/mp4">
+                <source src="/xplo/Explosion Meme.mp4">
+            </video>
+            
+        </div>
+    
+    </div>
+
     <div id="container">
         <div id="timerContainer">
 
@@ -18,14 +30,14 @@
             </p>
 
            <div id="interactive">
-            <input id="timerInput" type="text" placeholder="Introduce the time in seconds">
+            <input  id="timerInput" type="text" placeholder="Introduce the time in seconds">
 
             <button disabled id="inputBtn" type="submit">Submit</button>
 
            </div>
 
             <p class="information">
-                Only numbers are valid. Min 1, max 999 seconds.
+                Only numbers are valid. Min 1, max 60 seconds.
             </p>
 
             <p id="timeDisplay"></p>
